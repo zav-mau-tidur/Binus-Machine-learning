@@ -1,4 +1,4 @@
-# Laporan Analisis Data Iris - Azhar Rizki Zulma
+# Laporan Analisis Data Iris - Zaviero Syauqi
 ## Domain Proyek
 
 Melakukan analisis sederhana pada data Iris untuk mengetahui terkait data yang digunakan sebelum melakukan keseluruhan metode machine learning.
@@ -25,14 +25,14 @@ Dengan memanfaatkan library pandas untuk mengelola data, maka kita dapat melakuk
     
 ## Data Understanding
 - **Informasi Dataset**
-  <br> Merupakan Data yang berisi panjang kelopak bunga Iris dadn kategorisasinya
+  <br> Merupakan Data yang berisi panjang kelopak bunga Iris dan kategorisasinya
 
   | Jenis                   | Keterangan                                                                              |
   | ----------------------- | --------------------------------------------------------------------------------------- |
   | Sumber                  | Github |
   | Dataset Owner           | mwaskom |
   | Lisensi                 | MIT |
-  | Kategori                | Numerik |
+  | Kategori                | Numeric |
   | Usability               | 90% |
   | Jenis dan Ukuran Berkas | CSV (4 KB) |
 
@@ -41,16 +41,16 @@ Dengan memanfaatkan library pandas untuk mengelola data, maka kita dapat melakuk
   Detail penjelasan dari isi dataset
 
 - **Jumlah Baris dan Kolom**
-  <br> Jumlah Baris dan Kolom yang didapatkan adalah 150 Baris dengan 5 Kolom
+  <br> It has 150 rows and 5 columns
 
 - **Fitur pada Data**
-  <br> Terdapat fitur pada data yang dapat digunakan sebagai kategorisasi spesies bunga iris yaitu pada kolom species.
+  <br> the dataset seems to consist of attributes of flowers
 
 - **Bentuk Data**
-  <br> Data bertipe numerik dengan tipe data float, sedangkan pada kolom species memiliki tipe data object
-
+  <br> it is shown that the numeric data has decimals therefore it is a float type data and the species category/attribute illustrates a object type data
 - **Deskripsi Data**
-  <br> Hasil dari deskripsi data, data memiliki rerata nilai sepal_length 5.843333, sepal_width 3.057333, petal_length 3.758000, dan petal_width 1.199333, dengan nilai tertingginya adalah 7.900000 dan terendahnya adalah 0.100000 dari keseluruhan data. Berikut adalah tabel detailnya.
+  <br> data consist of 150 rows and 5 columns: four numerical features such ass (sepal_length/sepal_width/petal_length/petal_width)
+  the feature mean describes the average out of 150 total data, the standard deviation shows how far apart/spreadout the data is(smallest value-highest)/the average distance, the minimum value shows the lowest value out of 150 total data meanwhile the maximum value shows the highest value out of 150 total data
   
   | Data               | sepal_length | sepal_width | petal_length | petal_width |
   |--------------------|--------------|-------------|--------------|-------------|
@@ -61,5 +61,4 @@ Dengan memanfaatkan library pandas untuk mengelola data, maka kita dapat melakuk
   | Maximum Value      | 7.900000     | 4.400000    | 6.900000     | 2.500000    |
 
 ## Evaluation
-
-Dari hasil analisis sederhana yang dilakukan bahwa data iris merupakan data panjang kelopak bunga dengan memiliki fitur untuk mengkategorisasikan spesie berdasarkan panjang kelopak bunga Iris. Dari data tersebut kita dapat melakukan berbagai hal seperti melakukan prediksi jenis spesies bunga iris berdasarkan panjang kelopak yang diinputkan atau melakukan analisis lebih lanjut untuk memahami lebih mendetail tentang bunga iris berdasarkan panjang kelopaknya.
+This iris dataset describes data about the width and length of petals and sepals with the objective of flower classification based on those 4 attributes
