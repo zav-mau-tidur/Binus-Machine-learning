@@ -1,4 +1,4 @@
-# Laporan Proyek Machine Learning - Azhar Rizki Zulma
+# Laporan Proyek Machine Learning - Zaviero Syauqi
 ## Domain Proyek
 
 Domain proyek yang dipilih dalam proyek _machine learning_ ini adalah mengenai keuangan dan _cryptocurrency_ dengan judul proyek _"Bitcoin Price Predictive Analytics"_.
